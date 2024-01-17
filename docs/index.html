@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSCN8010 Labs</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <div style="display: flex; flex-direction: column;">
-        <h4 class="text-3xl font-bold underline">CSCN8010 Labs</h4>
-        <h4>Foundations of machine learning</h4>
-        <div style="display: flex; gap: 24px; padding: 40px;">
-            <a href="/CSCN8010-labs/matplotlib_tutorial.html">Matplotlib</a>
-            <a href="/CSCN8010-labs/plotly_tutorial.html">Matplotlib</a>
-        </div>
+  </head>
+  <body class="bg-slate-100">
+    <div class="container my-10 m-auto">
+      <h4 class="text-3xl font-bold text-slate-800">
+        Foundation of Machine Learning - CSCN8010
+      </h4>
+      <h4>Foundations of machine learning</h4>
+      <div class="mt-6 grid grid-flow-col auto-cols-auto gap-4 text-slate-700">
+        <a href="/CSCN8010-labs/matplotlib_tutorial.html">
+          <div
+            class="rounded bg-zinc-200	flex flex-col gap-2 px-6 py-4 hover:border hover:border-zinc-500 font-semibold"
+          >
+          <img src="https://matplotlib.org/_static/logo_dark.svg" class="inline h-20 w-40"/>
+            Matplotlib
+          </div></a
+        >
+        <a href="/CSCN8010-labs/plotly_tutorial.html"
+          ><div
+            class="rounded bg-zinc-200	 flex flex-col gap-2 px-6 py-4 hover:border hover:border-zinc-500 font-semibold"
+          >
+          <img src="https://plotly-marketing-website-2.cdn.prismic.io/plotly-marketing-website-2/b3d3a2b1-49f9-4e74-93dc-070b266a54ba_plotly_logo.svg" class="inline h-20 w-40"/>
+            Plotly
+          </div></a
+        >
+      </div>
     </div>
-</body>
+  </body>
 </html>
